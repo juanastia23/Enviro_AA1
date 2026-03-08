@@ -13677,3 +13677,397 @@ Sampler Limit: 32
 [2026.03.08-23.13.51:698][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
 [2026.03.08-23.13.51:708][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
 [2026.03.08-23.13.51:723][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.094 ms (total: 9.69 sec)
+[2026.03.08-23.20.18:700][300]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44940.257812
+[2026.03.08-23.20.19:700][303]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-23.20.19:700][303]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44940.921875, Update Interval: 353.052765
+[2026.03.08-23.25.51:229][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.25.51:300][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.03.08-23.25.51:309][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.25.51:318][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.25.51:326][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.529 ms (total: 9.78 sec)
+[2026.03.08-23.26.20:797][740]Cmd: ACTOR UNHIDE ALL
+[2026.03.08-23.26.46:799][715]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45324.800781
+[2026.03.08-23.26.46:957][732]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-23.26.46:957][732]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45324.933594, Update Interval: 315.275116
+[2026.03.08-23.26.53:453][421]Cmd: DELETE
+[2026.03.08-23.26.53:453][421]Cmd: ACTOR DELETE
+[2026.03.08-23.26.53:457][421]LogEditorActor: Deleted Actor: SpotLight
+[2026.03.08-23.26.53:466][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.26.53:468][421]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2026.03.08-23.27.08:736][ 96]Cmd: DELETE
+[2026.03.08-23.27.08:736][ 96]Cmd: ACTOR DELETE
+[2026.03.08-23.27.08:739][ 96]LogEditorActor: Deleted Actor: SkyLight
+[2026.03.08-23.27.08:749][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.03.08-23.27.08:751][ 96]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2026.03.08-23.27.40:876][803]Cmd: TRANSACTION UNDO
+[2026.03.08-23.27.40:876][803]LogEditorTransaction: Undo Editar Fog Height Falloff
+[2026.03.08-23.28.01:960][127]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.03.08-23.28.01:967][127]LogContentBundle: [FirstPersonMap(Autónomo)] Generating Streaming for 0 Content Bundles.
+[2026.03.08-23.28.01:967][127]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.03.08-23.28.01:975][127]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7.585 ms (total: 76.882 ms)
+[2026.03.08-23.28.01:975][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.08-23.28.02:011][127]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.08-23.28.02:023][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:025][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014214s)
+[2026.03.08-23.28.02:025][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014266s)
+[2026.03.08-23.28.02:033][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.08-23.28.02:037][127]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.03.08-23.28.02:038][127]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.08-23.28.02:038][127]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.08-23.28.02:038][127]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.08-23.28.02:038][127]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.08-23.28.02:041][127]LogWorldPartition: Display: WorldPartition initialize took 4.487 ms (total: 1.55 sec)
+[2026.03.08-23.28.02:041][127]LogPlayLevel: PIE: World Init took: (0.006034s)
+[2026.03.08-23.28.02:043][127]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.08-23.28.02:043][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.08-23.28.02:043][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.08-23.28.02:043][127]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.08-23.28.02:043][127]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.08-23.28.02:043][127]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.08-23.28.02:044][127]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.08-23.28.02:064][127]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (2- Vieta Pro Way 4)
+[2026.03.08-23.28.02:064][127]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.08-23.28.02:064][127]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.08-23.28.02:064][127]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.08-23.28.02:066][127]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.03.08-23.28.02:066][127]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.03.08-23.28.02:068][127]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.03.08-23.28.02:068][127]LogInit: FAudioDevice initialized with ID 10.
+[2026.03.08-23.28.02:068][127]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.03.08-23.28.02:068][127]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2026.03.08-23.28.02:068][127]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.03.08-23.28.02:071][127]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.08-23.28.02:074][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:074][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:074][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:077][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:077][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:077][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:077][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:077][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.02:077][127]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.03.09-00.28.02
+[2026.03.08-23.28.02:078][127]LogWorld: Bringing up level for play took: 0.006094
+[2026.03.08-23.28.02:079][127]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2026.03.08-23.28.02:083][127]PIE: El servidor ha iniciado sesión
+[2026.03.08-23.28.02:084][127]PIE: Tiempo de inicio total de la reproducción en el editor de 0,117 segundos.
+[2026.03.08-23.28.02:088][127]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.28.06:892][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.08-23.28.06:892][675]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.08-23.28.06:893][675]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.08-23.28.06:894][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.08-23.28.06:894][675]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.03.08-23.28.06:897][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.08-23.28.06:899][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.08-23.28.06:910][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.08-23.28.06:910][675]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.03.08-23.28.06:910][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.03.08-23.28.06:912][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.03.08-23.28.06:917][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.03.08-23.28.06:956][676]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2026.03.08-23.28.08:513][855]Cmd: TRANSACTION UNDO
+[2026.03.08-23.28.08:513][855]LogEditorTransaction: Undo Editar Fog Height Offset
+[2026.03.08-23.28.45:364][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.28.45:426][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.03.08-23.28.45:435][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.03.08-23.28.45:443][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.28.45:447][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2
+[2026.03.08-23.28.45:448][948]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/381LM03PFI8AF9NED1SEV2075C3C6D4C890D2956B79D8504942C8C.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/CL/381LM03PFI8AF9NED1SEV2.uasset'
+[2026.03.08-23.28.45:460][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.618 ms (total: 9.88 sec)
+[2026.03.08-23.28.45:517][948]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.08-23.28.45:517][948]LogContentValidation: Enabled validators:
+[2026.03.08-23.28.45:517][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-23.28.45:517][948]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-23.28.45:517][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-23.28.45:517][948]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-23.28.45:517][948]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-23.28.45:517][948]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-23.28.45:517][948]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validando recurso
+[2026.03.08-23.29.16:408][371]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.29.16:453][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.03.08-23.29.16:463][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.29.16:473][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.29.16:479][371]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.835 ms (total: 9.95 sec)
+[2026.03.08-23.29.19:573][726]Cmd: SELECT NONE
+[2026.03.08-23.29.41:930][215]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.41:930][215]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.41:955][215]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:019][686]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:019][686]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:019][686]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:019][686]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:019][686]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:021][686]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:476][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:476][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:476][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:476][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:476][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:478][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:478][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:478][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:478][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:478][739]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.46:911][787]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.29.47:136][801]Cmd: SELECT NONE
+[2026.03.08-23.29.55:631][703]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.29.55:631][703]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.29.55:632][703]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_34
+[2026.03.08-23.29.56:664][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.29.56:669][814]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2026.03.08-23.29.56:673][814]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.29.56:673][814]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.29.56:677][814]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430EC602_2124099137
+[2026.03.08-23.30.05:049][651]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.30.05:050][651]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.30.05:050][651]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_35
+[2026.03.08-23.30.05:177][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.03.08-23.30.05:179][661]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2026.03.08-23.30.05:206][662]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.30.05:206][662]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.30.05:207][662]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_36
+[2026.03.08-23.30.06:617][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.30.06:619][798]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2026.03.08-23.30.06:624][798]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.30.06:624][798]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.30.06:626][798]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430EC602_2134050138
+[2026.03.08-23.30.20:396][227]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.30.20:396][227]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.30.20:397][227]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_37
+[2026.03.08-23.30.21:315][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.30.21:318][320]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2026.03.08-23.30.21:323][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.30.21:323][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.30.21:325][320]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1075007315
+[2026.03.08-23.30.44:482][951]Cmd: TRANSACTION UNDO
+[2026.03.08-23.30.44:482][951]LogEditorTransaction: Undo Mover elementos
+[2026.03.08-23.30.48:022][273]Cmd: SELECT NONE
+[2026.03.08-23.30.50:377][485]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.30.50:377][485]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.30.50:379][485]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_38
+[2026.03.08-23.30.53:063][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.30.53:068][779]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2026.03.08-23.30.53:072][779]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.30.53:072][779]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.30.53:074][779]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1106756316
+[2026.03.08-23.31.07:677][326]Cmd: SELECT NONE
+[2026.03.08-23.31.12:221][790]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.31.12:221][790]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.31.12:221][790]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_39
+[2026.03.08-23.31.13:517][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.31.13:519][933]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2026.03.08-23.31.13:523][933]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.31.13:523][933]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.31.13:527][933]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1127207317
+[2026.03.08-23.31.21:688][815]Cmd: TRANSACTION UNDO
+[2026.03.08-23.31.21:688][815]LogEditorTransaction: Undo Mover elementos
+[2026.03.08-23.31.32:227][871]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low
+[2026.03.08-23.31.32:227][871]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low
+[2026.03.08-23.31.32:228][871]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_40
+[2026.03.08-23.31.34:285][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.08-23.31.34:287][ 94]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2026.03.08-23.31.34:294][ 94]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low
+[2026.03.08-23.31.34:294][ 94]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low
+[2026.03.08-23.31.34:297][ 94]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1147978319
+[2026.03.08-23.31.52:838][955]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.31.52:838][955]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.31.52:839][955]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_41
+[2026.03.08-23.31.53:702][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.03.08-23.31.53:706][ 51]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2026.03.08-23.31.53:710][ 51]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.31.53:710][ 51]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.31.53:713][ 51]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1167394321
+[2026.03.08-23.32.04:934][278]Cmd: TRANSACTION UNDO
+[2026.03.08-23.32.04:934][278]LogEditorTransaction: Undo Mover elementos
+[2026.03.08-23.32.04:988][278]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.32.04:988][278]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.32.04:988][278]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.32.04:988][278]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.32.04:988][278]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.32.04:995][278]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.32.11:525][979]Cmd: SELECT NONE
+[2026.03.08-23.32.16:676][475]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.32.16:676][475]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.32.16:677][475]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_42
+[2026.03.08-23.32.17:556][574]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1177943322 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/VP/M0RJF8UKGTJBFNHRL7HD8C.PackageMetaData in its package
+[2026.03.08-23.32.17:558][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.03.08-23.32.17:561][574]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2026.03.08-23.32.17:566][574]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.32.17:566][574]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.32.17:569][574]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1191250324
+[2026.03.08-23.32.17:582][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.03.08-23.32.29:328][958]Cmd: SELECT NONE
+[2026.03.08-23.32.32:475][290]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.32.32:475][290]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.32.32:476][290]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_43
+[2026.03.08-23.32.33:657][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.32.33:659][428]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2026.03.08-23.32.33:663][428]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.32.33:663][428]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.32.33:666][428]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1207347325
+[2026.03.08-23.32.34:686][526]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45657.375000
+[2026.03.08-23.32.34:868][540]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-23.32.34:868][540]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45657.546875, Update Interval: 318.151794
+[2026.03.08-23.32.37:769][842]Cmd: SELECT NONE
+[2026.03.08-23.32.53:509][627]Cmd: SELECT NONE
+[2026.03.08-23.32.59:226][284]Cmd: SELECT NONE
+[2026.03.08-23.33.10:617][566]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.33.10:617][566]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.33.10:618][566]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_44
+[2026.03.08-23.33.12:307][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.03.08-23.33.12:311][750]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2026.03.08-23.33.12:315][750]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.33.12:316][750]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.33.12:318][750]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430FC602_1245999329
+[2026.03.08-23.33.27:339][373]Cmd: SELECT NONE
+[2026.03.08-23.33.55:139][331]Cmd: SELECT NONE
+[2026.03.08-23.34.15:884][640]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low
+[2026.03.08-23.34.15:978][640]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_40
+[2026.03.08-23.34.22:085][999]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low
+[2026.03.08-23.34.22:093][999]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_41
+[2026.03.08-23.34.26:407][229]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low
+[2026.03.08-23.34.26:416][229]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_42
+[2026.03.08-23.34.30:641][455]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.34.30:652][455]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2026.03.08-23.34.36:656][801]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.34.36:665][801]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2026.03.08-23.34.38:211][853]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.34.42:121][104]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low
+[2026.03.08-23.34.42:129][104]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2026.03.08-23.34.46:621][337]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low
+[2026.03.08-23.34.46:631][337]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2026.03.08-23.34.50:978][555]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low
+[2026.03.08-23.34.50:989][555]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2026.03.08-23.34.58:823][  4]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.35.00:888][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.35.01:190][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.03.08-23.35.01:207][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.03.08-23.35.01:216][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.35.01:218][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/QS/7M2W57JY0WDWONEB2GHYF6
+[2026.03.08-23.35.01:219][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/7M2W57JY0WDWONEB2GHYF6858C6B7D44F7A317BF6404906EB613D9.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/QS/7M2W57JY0WDWONEB2GHYF6.uasset'
+[2026.03.08-23.35.01:221][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/4X/DA9N6OMCWC8391TQFH5DHO
+[2026.03.08-23.35.01:222][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/DA9N6OMCWC8391TQFH5DHOE43F4AD742E63F16B2775597EEC2AC40.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/4X/DA9N6OMCWC8391TQFH5DHO.uasset'
+[2026.03.08-23.35.01:223][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/K3/5PKU8LU0RQMRIDE38XF9PF
+[2026.03.08-23.35.01:223][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/5PKU8LU0RQMRIDE38XF9PF59A5EDB84A045C9004B2C1922B1707F1.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/K3/5PKU8LU0RQMRIDE38XF9PF.uasset'
+[2026.03.08-23.35.01:226][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/Y5/9I1KF2AJ91FP5MZJTMK54R
+[2026.03.08-23.35.01:226][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/9I1KF2AJ91FP5MZJTMK54R28E109D140C56A2889E81C9656690507.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/Y5/9I1KF2AJ91FP5MZJTMK54R.uasset'
+[2026.03.08-23.35.01:227][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/I5/ZGW4S399F29RCYA8XFQ5IA
+[2026.03.08-23.35.01:227][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/ZGW4S399F29RCYA8XFQ5IAAEB255BF4C88B1BC0E547A8A04A8497C.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/I5/ZGW4S399F29RCYA8XFQ5IA.uasset'
+[2026.03.08-23.35.01:229][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/1Q/7GEJ6MQN6PXSOUFRJ719ZI
+[2026.03.08-23.35.01:229][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/7GEJ6MQN6PXSOUFRJ719ZI72CEDF3C4D94B61B3EF9FA9376A0807C.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/1Q/7GEJ6MQN6PXSOUFRJ719ZI.uasset'
+[2026.03.08-23.35.01:231][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/87/W4836QC8FDFZ566MZJZ8SJ
+[2026.03.08-23.35.01:231][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/W4836QC8FDFZ566MZJZ8SJ3F28AAFB4C078310540B3595953B0E6D.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/87/W4836QC8FDFZ566MZJZ8SJ.uasset'
+[2026.03.08-23.35.01:233][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/U3/2EJV22R9CE4ZBAXF8OQ0SZ
+[2026.03.08-23.35.01:233][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/2EJV22R9CE4ZBAXF8OQ0SZCBFADABC40579F6D0540AF8FE6F80D10.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/U3/2EJV22R9CE4ZBAXF8OQ0SZ.uasset'
+[2026.03.08-23.35.01:235][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/1N/T4JY64MPT0AKF0GP90DLRN
+[2026.03.08-23.35.01:235][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/T4JY64MPT0AKF0GP90DLRN359C3A264EA0F7A58C20AE9860195BDF.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/1N/T4JY64MPT0AKF0GP90DLRN.uasset'
+[2026.03.08-23.35.01:237][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/0L/XIGY6L1W6U1QJDISE8EDSY
+[2026.03.08-23.35.01:237][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/XIGY6L1W6U1QJDISE8EDSYB8F6987E48AC7995A1355797F83F1669.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/0L/XIGY6L1W6U1QJDISE8EDSY.uasset'
+[2026.03.08-23.35.01:239][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/6K/YO70OBEF5UZVIB6448IW8I
+[2026.03.08-23.35.01:239][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/YO70OBEF5UZVIB6448IW8I0531862943E5F9C53408048E0AEB947D.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/6K/YO70OBEF5UZVIB6448IW8I.uasset'
+[2026.03.08-23.35.01:241][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/18/XC9QTJOOFTW8O1Z7H87KFY
+[2026.03.08-23.35.01:241][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/XC9QTJOOFTW8O1Z7H87KFY1D83F7534A055CEFD7D7D39BD06BDDD1.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/18/XC9QTJOOFTW8O1Z7H87KFY.uasset'
+[2026.03.08-23.35.01:243][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/R8/YUCWIZFFZI4R5LU9VG8Z2A
+[2026.03.08-23.35.01:243][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/YUCWIZFFZI4R5LU9VG8Z2A558D9FAA40A1B89E6E505E831F818E7B.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/R8/YUCWIZFFZI4R5LU9VG8Z2A.uasset'
+[2026.03.08-23.35.01:245][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/9N/ZJW0D25QIRON2R6BI3X2I3
+[2026.03.08-23.35.01:245][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/ZJW0D25QIRON2R6BI3X2I3CDC4D6854F75A3FB448C829DE4921764.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/9N/ZJW0D25QIRON2R6BI3X2I3.uasset'
+[2026.03.08-23.35.01:246][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/ZK/2UZ5OSXXB14O9H6BXN19SN
+[2026.03.08-23.35.01:247][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/2UZ5OSXXB14O9H6BXN19SN9C29CB0E457F8489B060F9B09832CF24.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/ZK/2UZ5OSXXB14O9H6BXN19SN.uasset'
+[2026.03.08-23.35.01:248][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W9/2JSLKK4BS7W1CO9ZTYSCLZ
+[2026.03.08-23.35.01:248][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/2JSLKK4BS7W1CO9ZTYSCLZCE0A6C764D85F02D5DD577BC65F81BF7.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/W9/2JSLKK4BS7W1CO9ZTYSCLZ.uasset'
+[2026.03.08-23.35.01:250][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/TF/7NMLQ33L3UJG59I3YUVTRC
+[2026.03.08-23.35.01:250][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/7NMLQ33L3UJG59I3YUVTRCCFEE199A4AFBF7E7D8E18D8DCA55AE35.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/TF/7NMLQ33L3UJG59I3YUVTRC.uasset'
+[2026.03.08-23.35.01:253][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/1B/ZYK2VI9J550X9DQGDMP96A
+[2026.03.08-23.35.01:253][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/ZYK2VI9J550X9DQGDMP96A2813B4464D032A33CD7F56981FA3B905.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/1B/ZYK2VI9J550X9DQGDMP96A.uasset'
+[2026.03.08-23.35.01:255][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/4E/K91E661TY8WYYFVJXT93X2
+[2026.03.08-23.35.01:255][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/K91E661TY8WYYFVJXT93X24F35EC4A435576DEC30F3DBCB3168A3C.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/4E/K91E661TY8WYYFVJXT93X2.uasset'
+[2026.03.08-23.35.01:256][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/E9/EZGUAOBJXI8IKN0A6N2E4R
+[2026.03.08-23.35.01:256][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/EZGUAOBJXI8IKN0A6N2E4R839E96424FA5F58368F2729C168BF9B5.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/E9/EZGUAOBJXI8IKN0A6N2E4R.uasset'
+[2026.03.08-23.35.01:258][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/H2/4VB61ZQQSRA2JU51E86HPB
+[2026.03.08-23.35.01:258][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/4VB61ZQQSRA2JU51E86HPB9E81DC2E4360F48B1D61B68719E11843.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/H2/4VB61ZQQSRA2JU51E86HPB.uasset'
+[2026.03.08-23.35.01:259][141]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/UI/29YFCVSLD3BNB0P16WM8WG
+[2026.03.08-23.35.01:259][141]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/29YFCVSLD3BNB0P16WM8WG487863B1432DC9D8484979BA9E6515C9.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/UI/29YFCVSLD3BNB0P16WM8WG.uasset'
+[2026.03.08-23.35.01:272][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 384.036 ms (total: 10.3 sec)
+[2026.03.08-23.35.01:328][141]LogContentValidation: Display: Starting to validate 22 assets
+[2026.03.08-23.35.01:328][141]LogContentValidation: Enabled validators:
+[2026.03.08-23.35.01:328][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-23.35.01:328][141]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-23.35.01:328][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-23.35.01:328][141]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-23.35.01:328][141]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-23.35.01:328][141]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-23.35.01:328][141]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validando recurso
+[2026.03.08-23.35.04:486][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.03.08-23.35.05:432][351]LogSlate: Window 'Guardar contenido' being destroyed
+[2026.03.08-23.35.05:440][351]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.35.05:477][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_C_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:491][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_C_low.Tubo_C_low]
+[2026.03.08-23.35.05:491][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_C_low]
+[2026.03.08-23.35.05:494][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_C_low
+[2026.03.08-23.35.05:494][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_C_low3B01A7C9444724DBE619B39468C22979.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_C_low.uasset'
+[2026.03.08-23.35.05:495][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_Curv_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:500][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_Curv_low.Tubo_Curv_low]
+[2026.03.08-23.35.05:500][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_Curv_low]
+[2026.03.08-23.35.05:504][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_Curv_low
+[2026.03.08-23.35.05:504][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_Curv_lowD08B6A3E47EC4C3416C441AFC6ADC963.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_Curv_low.uasset'
+[2026.03.08-23.35.05:505][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_M_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:511][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_M_low.Tubo_M_low]
+[2026.03.08-23.35.05:511][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_M_low]
+[2026.03.08-23.35.05:513][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_M_low
+[2026.03.08-23.35.05:514][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_M_lowBE6C84944544C624C41DE0BAC6B1CD81.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_M_low.uasset'
+[2026.03.08-23.35.05:515][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_P_Arc_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:521][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low]
+[2026.03.08-23.35.05:521][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_P_Arc_low]
+[2026.03.08-23.35.05:523][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_P_Arc_low
+[2026.03.08-23.35.05:524][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_P_Arc_lowE0A44CD8414EF66E194A1CB384DBEAFC.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_P_Arc_low.uasset'
+[2026.03.08-23.35.05:525][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_P_C_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:530][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low]
+[2026.03.08-23.35.05:530][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_P_C_low]
+[2026.03.08-23.35.05:531][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_P_C_low
+[2026.03.08-23.35.05:533][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_P_C_lowAF1D17C049A6374E43777599FB077EAD.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_P_C_low.uasset'
+[2026.03.08-23.35.05:535][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_P_L_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:540][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low]
+[2026.03.08-23.35.05:540][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_P_L_low]
+[2026.03.08-23.35.05:542][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_P_L_low
+[2026.03.08-23.35.05:543][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_P_L_lowB92D21AF470181B12D5782B90B22F9B5.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_P_L_low.uasset'
+[2026.03.08-23.35.05:544][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_P_T_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:550][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_P_T_low.Tubo_P_T_low]
+[2026.03.08-23.35.05:550][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_P_T_low]
+[2026.03.08-23.35.05:553][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_P_T_low
+[2026.03.08-23.35.05:553][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_P_T_lowFA7686E645BABE891596EBB0AF7B4A9A.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_P_T_low.uasset'
+[2026.03.08-23.35.05:555][351]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Tubes/Tubo_T_low] ([1] browsable assets)...
+[2026.03.08-23.35.05:559][351]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Own_Models/Tubes/Tubo_T_low.Tubo_T_low]
+[2026.03.08-23.35.05:560][351]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Tubes/Tubo_T_low]
+[2026.03.08-23.35.05:562][351]LogSavePackage: Moving output files for package: /Game/Own_Models/Tubes/Tubo_T_low
+[2026.03.08-23.35.05:562][351]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Tubo_T_lowCDD2FF9C47F5095B9BDB71A60F4561E1.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Tubes/Tubo_T_low.uasset'
+[2026.03.08-23.35.05:574][351]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.010 ms (total: 10.4 sec)
+[2026.03.08-23.35.05:610][351]LogContentValidation: Display: Starting to validate 8 assets
+[2026.03.08-23.35.05:611][351]LogContentValidation: Enabled validators:
+[2026.03.08-23.35.05:611][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-23.35.05:611][351]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-23.35.05:611][351]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-23.35.05:611][351]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-23.35.05:611][351]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-23.35.05:611][351]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_C_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_Curv_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_M_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_P_Arc_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_P_C_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_P_L_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_P_T_low Validando recurso
+[2026.03.08-23.35.05:611][351]AssetCheck: /Game/Own_Models/Tubes/Tubo_T_low Validando recurso
