@@ -13077,3 +13077,603 @@ Sampler Limit: 32
 [2026.03.08-22.28.39:291][446]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.03.08-22.28.39:291][446]AssetCheck: /Game/Own_Models/Stairs/Material/M_Stairs Validando recurso
 [2026.03.08-22.28.40:144][507]LogSlate: Window 'M_Stairs' being destroyed
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: ================================================
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Total job queries 3243, among them cache hits 2234 (68.89%), DDC hits 355 (10.95%), Duplicates 54 (1.67%)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Tracking 955 distinct input hashes that result in 709 distinct outputs (74.24%)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: RAM used: 434,90 KiB of 3,20 GiB budget. Usage: 0.01%
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Shaders Compiled: 600
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Jobs assigned 600, completed 600 (100%)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Average time worker was idle: 713.59 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Time job spent in pending queue: average 0.89 s, longest 5.22 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Job execution time: average 1.52 s, max 8.00 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 8.01
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Shader code size: average 12,21 KiB, min 2,312 KiB, max 31,922 KiB
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 111.38 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.07%
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Jobs were issued in 578 batches (only local compilation was used), average 1.04 jobs/batch
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Average processing rate: 5.39 jobs/sec
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Total thread time: 539,327 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Total thread preprocess time: 44,06 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Percentage time preprocessing: 8.17%
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Effective parallelization: 4.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   25 times, average 2.13 sec, max 3.20 sec, min 0.59 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:        TBasePassCSFCachedPointIndirectLightingPolicySkylight (compiled   16 times, average 1.94 sec, max 2.63 sec, min 1.56 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:       TBasePassCSFCachedVolumeIndirectLightingPolicySkylight (compiled   16 times, average 1.92 sec, max 2.66 sec, min 1.48 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:                TBasePassCSFCachedPointIndirectLightingPolicy (compiled   16 times, average 1.90 sec, max 2.62 sec, min 1.39 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled   16 times, average 1.87 sec, max 2.62 sec, min 1.42 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.88% of total time (compiled   25 times, average 2.13 sec, max 3.20 sec, min 0.59 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:                                               FHWRasterizePS - 9.38% of total time (compiled   60 times, average 0.84 sec, max 0.99 sec, min 0.63 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:        TBasePassCSFCachedPointIndirectLightingPolicySkylight - 5.74% of total time (compiled   16 times, average 1.94 sec, max 2.63 sec, min 1.56 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:       TBasePassCSFCachedVolumeIndirectLightingPolicySkylight - 5.69% of total time (compiled   16 times, average 1.92 sec, max 2.66 sec, min 1.48 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display:                TBasePassCSFCachedPointIndirectLightingPolicy - 5.65% of total time (compiled   16 times, average 1.90 sec, max 2.62 sec, min 1.39 sec)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: === Material stats ===
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Materials Translated:    753
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Material Total Translate Time: 0.27 s
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Material Translation Only: 0.12 s (45%)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: Material Cache Hits: 30 (4%)
+[2026.03.08-22.29.25:361][112]LogShaderCompilers: Display: ================================================
+[2026.03.08-22.30.58:013][833]Cmd: SELECT NONE
+[2026.03.08-22.31.05:035][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.31.05:110][212]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430AC602_1804109413 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/EO/CPBW67P3NA8JZT1JYY48LY.PackageMetaData in its package
+[2026.03.08-22.31.05:110][212]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430AC602_1810045416 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1J/21LM4IKLM9SYGY9KH0P227.PackageMetaData in its package
+[2026.03.08-22.31.05:110][212]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430AC602_1810042415 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/IG/O93ZUO2T5BQGEFH7C7ZCYR.PackageMetaData in its package
+[2026.03.08-22.31.05:110][212]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430AC602_1804113414 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/UB/HVWOWWUIGZ6EBPZPS95HZX.PackageMetaData in its package
+[2026.03.08-22.31.05:110][212]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430AC602_1328117412 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/7N/SKZ3Q3TLQYU9TUKA4IJXOA.PackageMetaData in its package
+[2026.03.08-22.31.05:111][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.03.08-22.31.05:126][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.08-22.31.05:135][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.03.08-22.31.05:148][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.002 ms (total: 8.91 sec)
+[2026.03.08-22.31.05:156][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-22.31.14:048][180]Cmd: ACTOR UNHIDE ALL
+[2026.03.08-22.31.51:486][ 26]Cmd: SELECT NONE
+[2026.03.08-22.32.10:835][981]Cmd: SELECT NONE
+[2026.03.08-22.32.20:161][929]Cmd: ACTOR HIDE SELECTED
+[2026.03.08-22.32.26:073][580]Cmd: ACTOR UNHIDE ALL
+[2026.03.08-22.32.58:579][414]Cmd: SELECT NONE
+[2026.03.08-22.32.59:368][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.32.59:423][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.03.08-22.32.59:435][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.03.08-22.32.59:444][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.03.08-22.32.59:447][505]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GG/ICJ39JM3151JAN1XMSCCYS
+[2026.03.08-22.32.59:447][505]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/ICJ39JM3151JAN1XMSCCYS3AA4987A404AE2816FF182B2EED6DD3E.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GG/ICJ39JM3151JAN1XMSCCYS.uasset'
+[2026.03.08-22.32.59:449][505]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/4H/UXCKPL8O8EMC52RO2LFQV4
+[2026.03.08-22.32.59:449][505]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/UXCKPL8O8EMC52RO2LFQV450ED4CFC46E1BB0E6CAB6AA3F23FCC55.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/4H/UXCKPL8O8EMC52RO2LFQV4.uasset'
+[2026.03.08-22.32.59:462][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.025 ms (total: 9.00 sec)
+[2026.03.08-22.32.59:511][505]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.08-22.32.59:511][505]LogContentValidation: Enabled validators:
+[2026.03.08-22.32.59:511][505]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.32.59:511][505]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.32.59:511][505]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.32.59:511][505]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.32.59:511][505]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.32.59:511][505]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.32.59:511][505]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validando recurso
+[2026.03.08-22.35.01:288][790]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42243.824219
+[2026.03.08-22.35.02:289][793]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-22.35.02:289][793]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42244.488281, Update Interval: 356.178467
+[2026.03.08-22.41.32:657][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42634.660156
+[2026.03.08-22.41.33:657][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-22.41.33:657][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42635.328125, Update Interval: 331.852173
+[2026.03.08-22.47.50:023][ 96]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43011.769531
+[2026.03.08-22.47.51:024][ 99]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-22.47.51:024][ 99]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43012.433594, Update Interval: 342.943207
+[2026.03.08-22.51.50:035][816]LogDerivedDataCache: C:/Users/PC RACING/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.08-22.53.11:325][ 83]LogContentBrowser: Attempting asset rename: Azulejos_Modelos_height -> Pared_H
+[2026.03.08-22.53.11:426][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.53.11:426][ 83]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Pared_H] ([1] browsable assets)...
+[2026.03.08-22.53.11:426][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Pared_H]
+[2026.03.08-22.53.11:440][ 83]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Pared_H
+[2026.03.08-22.53.11:440][ 83]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Pared_H3CC29C07428C96D59C9E139CAA3099BB.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Pared_H.uasset'
+[2026.03.08-22.53.11:441][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 15.629 ms (total: 9.02 sec)
+[2026.03.08-22.53.11:458][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.03.08-22.53.11:469][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.03.08-22.53.11:479][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: Enabled validators:
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.53.11:546][ 83]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.53.11:546][ 83]AssetCheck: /Game/Own_Models/Walls/Material/2/Pared_H Validando recurso
+[2026.03.08-22.53.18:912][882]LogContentBrowser: Attempting asset rename: Azulejos_Modelos_normal -> Paredes_Normal
+[2026.03.08-22.53.18:989][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.53.18:989][882]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/M_walls_2] ([1] browsable assets)...
+[2026.03.08-22.53.18:989][882]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/M_walls_2]
+[2026.03.08-22.53.18:989][882]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/M_walls_2
+[2026.03.08-22.53.18:991][882]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/M_walls_2B4288D4F42C9D2BF95B54A90C11C589E.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/M_walls_2.uasset'
+[2026.03.08-22.53.18:992][882]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Normal] ([1] browsable assets)...
+[2026.03.08-22.53.18:992][882]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Normal]
+[2026.03.08-22.53.19:022][882]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_Normal
+[2026.03.08-22.53.19:022][882]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_Normal668196EC46B098B5929BB8A6CAF6F6CC.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_Normal.uasset'
+[2026.03.08-22.53.19:022][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 33.830 ms (total: 9.05 sec)
+[2026.03.08-22.53.19:039][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.03.08-22.53.19:049][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.03.08-22.53.19:059][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.03.08-22.53.19:111][882]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.08-22.53.19:111][882]LogContentValidation: Enabled validators:
+[2026.03.08-22.53.19:111][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.53.19:111][882]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.53.19:111][882]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.53.19:111][882]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.53.19:111][882]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.53.19:111][882]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.53.19:111][882]AssetCheck: /Game/Own_Models/Walls/Material/2/M_walls_2 Validando recurso
+[2026.03.08-22.53.19:111][882]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_Normal Validando recurso
+[2026.03.08-22.53.31:089][203]LogContentBrowser: Attempting asset rename: Azulejos_Modelos_roughness -> Paredes_Rhness
+[2026.03.08-22.53.31:155][203]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.53.31:155][203]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/M_walls_2] ([1] browsable assets)...
+[2026.03.08-22.53.31:155][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/M_walls_2]
+[2026.03.08-22.53.31:157][203]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/M_walls_2
+[2026.03.08-22.53.31:157][203]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/M_walls_203DA43834667D11558BD15BE7DBD854B.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/M_walls_2.uasset'
+[2026.03.08-22.53.31:158][203]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness] ([1] browsable assets)...
+[2026.03.08-22.53.31:158][203]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness]
+[2026.03.08-22.53.31:171][203]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_Rhness
+[2026.03.08-22.53.31:171][203]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_RhnessB2B43ABF46C21B8E3B254197C14468CA.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_Rhness.uasset'
+[2026.03.08-22.53.31:172][203]LogFileHelpers: InternalPromptForCheckoutAndSave took 17.096 ms (total: 9.07 sec)
+[2026.03.08-22.53.31:189][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.03.08-22.53.31:198][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.03.08-22.53.31:206][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-22.53.31:259][203]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.08-22.53.31:259][203]LogContentValidation: Enabled validators:
+[2026.03.08-22.53.31:259][203]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.53.31:259][203]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.53.31:259][203]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.53.31:259][203]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.53.31:259][203]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.53.31:259][203]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.53.31:259][203]AssetCheck: /Game/Own_Models/Walls/Material/2/M_walls_2 Validando recurso
+[2026.03.08-22.53.31:259][203]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_Rhness Validando recurso
+[2026.03.08-22.53.37:375][889]LogContentBrowser: Attempting asset rename: Azulejos_Modelos_metallic -> Paredes_Met
+[2026.03.08-22.53.37:452][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.53.37:453][889]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/M_walls_2] ([1] browsable assets)...
+[2026.03.08-22.53.37:453][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/M_walls_2]
+[2026.03.08-22.53.37:455][889]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/M_walls_2
+[2026.03.08-22.53.37:455][889]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/M_walls_22134FE19461E1BA8D1B15DB5C76BEF07.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/M_walls_2.uasset'
+[2026.03.08-22.53.37:456][889]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Met] ([1] browsable assets)...
+[2026.03.08-22.53.37:456][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Met]
+[2026.03.08-22.53.37:459][889]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_Met
+[2026.03.08-22.53.37:459][889]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_MetF28F69CB4790BF15DEF059860EB744E1.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_Met.uasset'
+[2026.03.08-22.53.37:460][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.514 ms (total: 9.07 sec)
+[2026.03.08-22.53.37:476][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.08-22.53.37:486][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.03.08-22.53.37:494][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.03.08-22.53.37:562][889]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.08-22.53.37:562][889]LogContentValidation: Enabled validators:
+[2026.03.08-22.53.37:562][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.53.37:562][889]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.53.37:562][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.53.37:562][889]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.53.37:562][889]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.53.37:562][889]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.53.37:562][889]AssetCheck: /Game/Own_Models/Walls/Material/2/M_walls_2 Validando recurso
+[2026.03.08-22.53.37:562][889]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_Met Validando recurso
+[2026.03.08-22.53.43:456][517]LogContentBrowser: Attempting asset rename: Azulejos_Modelos_basecolor -> Paredes_BC
+[2026.03.08-22.53.43:541][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.53.43:541][517]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/M_walls_2] ([1] browsable assets)...
+[2026.03.08-22.53.43:541][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/M_walls_2]
+[2026.03.08-22.53.43:542][517]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/M_walls_2
+[2026.03.08-22.53.43:543][517]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/M_walls_2925B365A4487DF7F82BD7E80C4EABFCA.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/M_walls_2.uasset'
+[2026.03.08-22.53.43:544][517]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_BC] ([1] browsable assets)...
+[2026.03.08-22.53.43:544][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_BC]
+[2026.03.08-22.53.43:548][517]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_BC
+[2026.03.08-22.53.43:548][517]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_BC580D4EA94D0799A6FFABA8876F1E11ED.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_BC.uasset'
+[2026.03.08-22.53.43:549][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 7.689 ms (total: 9.08 sec)
+[2026.03.08-22.53.43:563][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.03.08-22.53.43:573][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.03.08-22.53.43:583][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-22.53.43:644][517]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.08-22.53.43:644][517]LogContentValidation: Enabled validators:
+[2026.03.08-22.53.43:644][517]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.53.43:644][517]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.53.43:644][517]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.53.43:644][517]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.53.43:644][517]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.53.43:644][517]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.53.43:644][517]AssetCheck: /Game/Own_Models/Walls/Material/2/M_walls_2 Validando recurso
+[2026.03.08-22.53.43:644][517]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_BC Validando recurso
+[2026.03.08-22.53.51:874][428]LogContentBrowser: Attempting asset rename: Azulejos_Modelos_ambientocclusion -> Paredes_AO
+[2026.03.08-22.53.51:937][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-22.53.51:937][428]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/M_walls_2] ([1] browsable assets)...
+[2026.03.08-22.53.51:937][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/M_walls_2]
+[2026.03.08-22.53.51:939][428]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/M_walls_2
+[2026.03.08-22.53.51:939][428]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/M_walls_283AE0BB649A57A454D5CE3B64C192FAF.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/M_walls_2.uasset'
+[2026.03.08-22.53.51:940][428]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_AO] ([1] browsable assets)...
+[2026.03.08-22.53.51:940][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_AO]
+[2026.03.08-22.53.51:943][428]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_AO
+[2026.03.08-22.53.51:943][428]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_AO97DCDEC94BC9CE08E7783FA3D7497D9F.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_AO.uasset'
+[2026.03.08-22.53.51:945][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.219 ms (total: 9.09 sec)
+[2026.03.08-22.53.51:960][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.03.08-22.53.51:969][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.03.08-22.53.51:979][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.03.08-22.53.52:044][428]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.08-22.53.52:044][428]LogContentValidation: Enabled validators:
+[2026.03.08-22.53.52:044][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-22.53.52:044][428]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-22.53.52:044][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-22.53.52:044][428]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-22.53.52:044][428]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-22.53.52:044][428]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-22.53.52:044][428]AssetCheck: /Game/Own_Models/Walls/Material/2/M_walls_2 Validando recurso
+[2026.03.08-22.53.52:044][428]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_AO Validando recurso
+[2026.03.08-22.53.53:600][575]Cmd: TRANSACTION UNDO
+[2026.03.08-22.53.53:600][575]LogEditorTransaction: Undo Desocultar todo
+[2026.03.08-22.53.57:867][  6]Cmd: TRANSACTION REDO
+[2026.03.08-22.53.57:867][  6]LogEditorTransaction: Redo Desocultar todo
+[2026.03.08-22.54.09:294][235]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43386.996094
+[2026.03.08-22.54.09:460][254]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-22.54.09:460][254]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43387.136719, Update Interval: 328.757599
+[2026.03.08-22.54.55:322][ 32]LogInterchangeEngine: [Pendiente] Importando
+[2026.03.08-22.54.55:322][ 32]LogInterchangeEngine: Display: Interchange start importing source [D:/Universidad/Any3/Arte_de_Entornos/M_Paredes/2/Textura_Final/Paredes_Rhness.png]
+[2026.03.08-22.54.55:379][ 32]LogTexture: Display: Creación de texturas: /Game/Own_Models/Walls/Material/2/Paredes_Rhness.Paredes_Rhness (TFO_AutoDXT, 2048X2048 X1X1X1) (Memoria requerida aproximada: 302.583323 MB), EncodeSpeed: Fast
+[2026.03.08-22.54.55:417][ 32]LogInterchangeEngine: Display: Interchange import completed [D:/Universidad/Any3/...edes/2/Textura_Final/Paredes_Rhness.png]
+[2026.03.08-22.54.55:417][ 32]LogInterchangeEngine: [Pendiente] Importando - Operation completed.
+[2026.03.08-22.54.55:417][ 32]LogInterchangeEngine: [Éxito] Se ha completado la importación
+[2026.03.08-22.55.29:835][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.03.08-22.55.29:837][844]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.013
+[2026.03.08-22.55.29:838][844]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness] ([1] browsable assets)...
+[2026.03.08-22.55.29:840][844]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Own_Models/Walls/Material/2/Paredes_Rhness.Paredes_Rhness]
+[2026.03.08-22.55.29:840][844]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness]
+[2026.03.08-22.55.29:849][844]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_Rhness_Auto5
+[2026.03.08-22.55.29:849][844]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_Rhness_Auto5EB79AEC64763F76C857A75A22B8D7774.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_Rhness_Auto5.uasset'
+[2026.03.08-22.55.29:850][844]LogFileHelpers: Auto-saving content packages took 0.013
+[2026.03.08-23.00.21:700][919]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43758.937500
+[2026.03.08-23.00.22:699][922]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-23.00.22:699][922]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43759.601562, Update Interval: 337.931458
+[2026.03.08-23.03.06:976][ 65]LogInterchangeEngine: [Pendiente] Importando
+[2026.03.08-23.03.06:976][ 65]LogInterchangeEngine: Display: Interchange start importing source [D:/Universidad/Any3/Arte_de_Entornos/M_Paredes/2/Textura_Final/Paredes_Rhness.png]
+[2026.03.08-23.03.07:024][ 65]LogInterchangeEngine: Display: Interchange import completed [D:/Universidad/Any3/...edes/2/Textura_Final/Paredes_Rhness.png]
+[2026.03.08-23.03.07:024][ 65]LogInterchangeEngine: [Pendiente] Importando - Operation completed.
+[2026.03.08-23.03.07:024][ 65]LogInterchangeEngine: [Éxito] Se ha completado la importación
+[2026.03.08-23.03.07:042][ 65]LogInterchangeEngine: [Pendiente] Importando
+[2026.03.08-23.03.07:042][ 65]LogInterchangeEngine: Display: Interchange start importing source [D:/Universidad/Any3/Arte_de_Entornos/M_Paredes/2/Textura_Final/Paredes_AO.png]
+[2026.03.08-23.03.07:072][ 65]LogTexture: Display: Creación de texturas: /Game/Own_Models/Walls/Material/2/Paredes_AO.Paredes_AO (TFO_AutoDXT, 2048X2048 X1X1X1) (Memoria requerida aproximada: 302.583323 MB), EncodeSpeed: Fast
+[2026.03.08-23.03.07:100][ 65]LogInterchangeEngine: Display: Interchange import completed [D:/Universidad/Any3/...edes/2/Textura_Final/Paredes_AO.png]
+[2026.03.08-23.03.07:100][ 65]LogInterchangeEngine: [Pendiente] Importando - Operation completed.
+[2026.03.08-23.03.07:100][ 65]LogInterchangeEngine: [Éxito] Se ha completado la importación
+[2026.03.08-23.03.07:126][ 65]LogInterchangeEngine: [Pendiente] Importando
+[2026.03.08-23.03.07:126][ 65]LogInterchangeEngine: Display: Interchange start importing source [D:/Universidad/Any3/Arte_de_Entornos/M_Paredes/2/Textura_Final/Paredes_BC.png]
+[2026.03.08-23.03.07:146][ 65]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2026.03.08-23.03.07:151][ 65]LogTexture: Display: Creación de texturas: /Game/Own_Models/Walls/Material/2/Paredes_BC.Paredes_BC (TFO_AutoDXT, 2048X2048 X1X1X1) (Memoria requerida aproximada: 290.583323 MB), EncodeSpeed: Fast
+[2026.03.08-23.03.07:179][ 65]LogInterchangeEngine: Display: Interchange import completed [D:/Universidad/Any3/...edes/2/Textura_Final/Paredes_BC.png]
+[2026.03.08-23.03.07:179][ 65]LogInterchangeEngine: [Pendiente] Importando - Operation completed.
+[2026.03.08-23.03.07:179][ 65]LogInterchangeEngine: [Éxito] Se ha completado la importación
+[2026.03.08-23.03.07:194][ 65]LogInterchangeEngine: [Pendiente] Importando
+[2026.03.08-23.03.07:194][ 65]LogInterchangeEngine: Display: Interchange start importing source [D:/Universidad/Any3/Arte_de_Entornos/M_Paredes/2/Textura_Final/Paredes_Normal.png]
+[2026.03.08-23.03.07:240][ 65]LogTexture: Display: Creación de texturas: /Game/Own_Models/Walls/Material/2/Paredes_Normal.Paredes_Normal (TFO_BC5, 2048X2048 X1X1X1) (Memoria requerida aproximada: 427.499988 MB), EncodeSpeed: Fast
+[2026.03.08-23.03.07:279][ 65]LogInterchangeEngine: Display: Interchange import completed [D:/Universidad/Any3/...edes/2/Textura_Final/Paredes_Normal.png]
+[2026.03.08-23.03.07:279][ 65]LogInterchangeEngine: [Pendiente] Importando - Operation completed.
+[2026.03.08-23.03.07:279][ 65]LogInterchangeEngine: [Éxito] Se ha completado la importación
+[2026.03.08-23.04.23:740][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.04.23:806][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.03.08-23.04.23:816][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.04.23:825][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2026.03.08-23.04.23:835][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.359 ms (total: 9.19 sec)
+[2026.03.08-23.04.54:306][450]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.03.08-23.04.54:311][450]LogContentBundle: [FirstPersonMap(Autónomo)] Generating Streaming for 0 Content Bundles.
+[2026.03.08-23.04.54:311][450]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.03.08-23.04.54:319][450]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7.869 ms (total: 61.782 ms)
+[2026.03.08-23.04.54:319][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.08-23.04.54:341][450]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.08-23.04.54:353][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:355][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014139s)
+[2026.03.08-23.04.54:355][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014185s)
+[2026.03.08-23.04.54:362][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.03.08-23.04.54:365][450]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.03.08-23.04.54:366][450]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.08-23.04.54:366][450]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.08-23.04.54:366][450]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.08-23.04.54:366][450]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.08-23.04.54:370][450]LogWorldPartition: Display: WorldPartition initialize took 4.458 ms (total: 1.54 sec)
+[2026.03.08-23.04.54:370][450]LogPlayLevel: PIE: World Init took: (0.005975s)
+[2026.03.08-23.04.54:371][450]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.08-23.04.54:371][450]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.08-23.04.54:371][450]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.08-23.04.54:371][450]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.08-23.04.54:371][450]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.08-23.04.54:371][450]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.08-23.04.54:373][450]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.08-23.04.54:394][450]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (2- Vieta Pro Way 4)
+[2026.03.08-23.04.54:394][450]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.08-23.04.54:394][450]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.08-23.04.54:394][450]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.08-23.04.54:395][450]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.03.08-23.04.54:395][450]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.03.08-23.04.54:397][450]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.03.08-23.04.54:397][450]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.03.08-23.04.54:397][450]LogInit: FAudioDevice initialized with ID 8.
+[2026.03.08-23.04.54:397][450]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2026.03.08-23.04.54:397][450]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.03.08-23.04.54:400][450]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.08-23.04.54:404][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:404][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:404][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:406][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:406][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:406][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:406][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:406][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.54:406][450]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.03.09-00.04.54
+[2026.03.08-23.04.54:407][450]LogWorld: Bringing up level for play took: 0.006125
+[2026.03.08-23.04.54:408][450]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2026.03.08-23.04.54:412][450]PIE: El servidor ha iniciado sesión
+[2026.03.08-23.04.54:413][450]PIE: Tiempo de inicio total de la reproducción en el editor de 0,102 segundos.
+[2026.03.08-23.04.54:418][450]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.04.56:060][624]Cmd: LevelEditor.ToggleImmersive
+[2026.03.08-23.04.56:097][625]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2026.03.08-23.05.49:482][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.08-23.05.49:482][623]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.08-23.05.49:483][623]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.08-23.05.49:484][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.08-23.05.49:484][623]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.03.08-23.05.49:489][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.08-23.05.49:494][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.08-23.05.49:503][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.08-23.05.49:504][623]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.03.08-23.05.49:504][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2026.03.08-23.05.49:506][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2026.03.08-23.05.49:513][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.03.08-23.05.49:662][625]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2026.03.08-23.05.57:524][536]LogDebuggerCommands: Repeating last play command: Visor seleccionado
+[2026.03.08-23.05.57:529][536]LogContentBundle: [FirstPersonMap(Autónomo)] Generating Streaming for 0 Content Bundles.
+[2026.03.08-23.05.57:529][536]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.03.08-23.05.57:537][536]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7.514 ms (total: 69.297 ms)
+[2026.03.08-23.05.57:537][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.08-23.05.57:572][536]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.08-23.05.57:583][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:585][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013429s)
+[2026.03.08-23.05.57:585][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013470s)
+[2026.03.08-23.05.57:593][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.03.08-23.05.57:594][536]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.03.08-23.05.57:596][536]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.08-23.05.57:596][536]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.08-23.05.57:596][536]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.08-23.05.57:596][536]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.08-23.05.57:601][536]LogWorldPartition: Display: WorldPartition initialize took 4.650 ms (total: 1.54 sec)
+[2026.03.08-23.05.57:601][536]LogPlayLevel: PIE: World Init took: (0.006132s)
+[2026.03.08-23.05.57:601][536]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.08-23.05.57:601][536]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.08-23.05.57:601][536]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.08-23.05.57:601][536]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.08-23.05.57:601][536]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.08-23.05.57:601][536]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.08-23.05.57:604][536]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.08-23.05.57:623][536]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (2- Vieta Pro Way 4)
+[2026.03.08-23.05.57:623][536]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.08-23.05.57:623][536]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.08-23.05.57:623][536]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.08-23.05.57:624][536]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.03.08-23.05.57:624][536]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.03.08-23.05.57:626][536]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.03.08-23.05.57:626][536]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.03.08-23.05.57:626][536]LogInit: FAudioDevice initialized with ID 9.
+[2026.03.08-23.05.57:626][536]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2026.03.08-23.05.57:626][536]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.03.08-23.05.57:629][536]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.08-23.05.57:633][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:633][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:633][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:634][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:634][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:634][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:634][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:634][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.05.57:634][536]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.03.09-00.05.57
+[2026.03.08-23.05.57:635][536]LogWorld: Bringing up level for play took: 0.005733
+[2026.03.08-23.05.57:636][536]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2026.03.08-23.05.57:640][536]PIE: El servidor ha iniciado sesión
+[2026.03.08-23.05.57:641][536]PIE: Tiempo de inicio total de la reproducción en el editor de 0,111 segundos.
+[2026.03.08-23.05.57:646][536]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.08-23.06.44:072][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.08-23.06.44:072][123]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.08-23.06.44:073][123]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.08-23.06.44:074][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.08-23.06.44:075][123]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.03.08-23.06.44:078][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.08-23.06.44:081][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.08-23.06.44:089][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.08-23.06.44:089][123]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.03.08-23.06.44:089][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2026.03.08-23.06.44:091][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2026.03.08-23.06.44:098][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.03.08-23.06.44:150][126]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2026.03.08-23.06.52:750][138]Cmd: SELECT NONE
+[2026.03.08-23.06.53:515][229]Cmd: SELECT NONE
+[2026.03.08-23.06.58:673][760]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44152.683594
+[2026.03.08-23.06.58:822][778]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-23.06.58:822][778]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44152.816406, Update Interval: 356.517212
+[2026.03.08-23.07.24:295][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.03.08-23.07.24:296][366]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.013
+[2026.03.08-23.07.24:297][366]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_AO] ([1] browsable assets)...
+[2026.03.08-23.07.24:298][366]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Own_Models/Walls/Material/2/Paredes_AO.Paredes_AO]
+[2026.03.08-23.07.24:298][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_AO]
+[2026.03.08-23.07.24:308][366]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_AO_Auto6
+[2026.03.08-23.07.24:308][366]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_AO_Auto614CA160A41248F9C53027EB97904064C.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_AO_Auto6.uasset'
+[2026.03.08-23.07.24:309][366]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_BC] ([1] browsable assets)...
+[2026.03.08-23.07.24:310][366]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Own_Models/Walls/Material/2/Paredes_BC.Paredes_BC]
+[2026.03.08-23.07.24:310][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_BC]
+[2026.03.08-23.07.24:314][366]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_BC_Auto6
+[2026.03.08-23.07.24:314][366]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_BC_Auto6048335C0433E6FAA34DAF8AB0D9CAFB7.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_BC_Auto6.uasset'
+[2026.03.08-23.07.24:316][366]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Normal] ([1] browsable assets)...
+[2026.03.08-23.07.24:317][366]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Own_Models/Walls/Material/2/Paredes_Normal.Paredes_Normal]
+[2026.03.08-23.07.24:317][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Normal]
+[2026.03.08-23.07.24:327][366]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_Normal_Auto6
+[2026.03.08-23.07.24:327][366]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_Normal_Auto61DF28098443387288CE903A2FCFAD3A4.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_Normal_Auto6.uasset'
+[2026.03.08-23.07.24:328][366]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness] ([1] browsable assets)...
+[2026.03.08-23.07.24:329][366]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Own_Models/Walls/Material/2/Paredes_Rhness.Paredes_Rhness]
+[2026.03.08-23.07.24:329][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness]
+[2026.03.08-23.07.24:341][366]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_Rhness_Auto6
+[2026.03.08-23.07.24:341][366]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_Rhness_Auto6D25D263047C45687B7AFDC97B00A63B1.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Autosaves/Game/Own_Models/Walls/Material/2/Paredes_Rhness_Auto6.uasset'
+[2026.03.08-23.07.24:341][366]LogFileHelpers: Auto-saving content packages took 0.044
+[2026.03.08-23.08.37:090][759]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.08.37:162][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.08.37:173][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.08.37:181][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.03.08-23.08.37:188][759]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.846 ms (total: 9.28 sec)
+[2026.03.08-23.08.38:198][876]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.03.08-23.08.39:319][876]LogSlate: Window 'Guardar contenido' being destroyed
+[2026.03.08-23.08.39:338][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.08.39:396][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_AO] ([1] browsable assets)...
+[2026.03.08-23.08.39:396][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_AO]
+[2026.03.08-23.08.39:417][876]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_AO
+[2026.03.08-23.08.39:417][876]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_AOE241680D4B8C376B4DA4B2928D7EB348.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_AO.uasset'
+[2026.03.08-23.08.39:418][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_BC] ([1] browsable assets)...
+[2026.03.08-23.08.39:418][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_BC]
+[2026.03.08-23.08.39:425][876]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_BC
+[2026.03.08-23.08.39:425][876]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_BC975A627B43D4D5B41D7C1F835017859C.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_BC.uasset'
+[2026.03.08-23.08.39:426][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Normal] ([1] browsable assets)...
+[2026.03.08-23.08.39:426][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Normal]
+[2026.03.08-23.08.39:458][876]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_Normal
+[2026.03.08-23.08.39:459][876]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_NormalF6408BC0498D7ECA2F8E3BACCBF2F991.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_Normal.uasset'
+[2026.03.08-23.08.39:461][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness] ([1] browsable assets)...
+[2026.03.08-23.08.39:461][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Own_Models/Walls/Material/2/Paredes_Rhness]
+[2026.03.08-23.08.39:487][876]LogSavePackage: Moving output files for package: /Game/Own_Models/Walls/Material/2/Paredes_Rhness
+[2026.03.08-23.08.39:487][876]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/Paredes_Rhness22A5423E41D8F373219D78B14B8BC589.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/Own_Models/Walls/Material/2/Paredes_Rhness.uasset'
+[2026.03.08-23.08.39:495][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.573 ms (total: 9.44 sec)
+[2026.03.08-23.08.39:545][876]LogContentValidation: Display: Starting to validate 4 assets
+[2026.03.08-23.08.39:545][876]LogContentValidation: Enabled validators:
+[2026.03.08-23.08.39:545][876]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-23.08.39:545][876]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-23.08.39:545][876]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-23.08.39:545][876]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-23.08.39:545][876]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-23.08.39:545][876]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-23.08.39:545][876]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_AO Validando recurso
+[2026.03.08-23.08.39:545][876]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_BC Validando recurso
+[2026.03.08-23.08.39:545][876]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_Normal Validando recurso
+[2026.03.08-23.08.39:546][876]AssetCheck: /Game/Own_Models/Walls/Material/2/Paredes_Rhness Validando recurso
+[2026.03.08-23.09.14:236][699]LogSlate: Window 'Cambios de nombre con errores' being destroyed
+[2026.03.08-23.09.17:603][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.08-23.09.21:894][ 16]LogSlate: Window 'Delete Assets' being destroyed
+[2026.03.08-23.09.26:025][433]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.09.26:025][433]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.09.26:026][433]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_28
+[2026.03.08-23.09.27:947][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.03.08-23.09.27:949][638]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2026.03.08-23.09.27:954][638]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.09.27:954][638]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.09.27:956][638]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430DC602_1969121948
+[2026.03.08-23.09.32:771][ 96]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.09.32:771][ 96]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.09.32:771][ 96]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_29
+[2026.03.08-23.09.33:573][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.03.08-23.09.33:575][179]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2026.03.08-23.09.33:581][179]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.09.33:581][179]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.09.33:583][179]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430DC602_1974748949
+[2026.03.08-23.09.59:099][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.09.59:099][906]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.09.59:100][906]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_30
+[2026.03.08-23.10.00:982][101]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.08-23.10.00:985][101]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2026.03.08-23.10.00:989][101]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.10.00:989][101]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low
+[2026.03.08-23.10.00:992][101]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_C_low.Tubo_P_C_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430DC602_2002156951
+[2026.03.08-23.10.20:181][212]Cmd: SELECT NONE
+[2026.03.08-23.10.25:189][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.10.25:189][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.10.25:190][754]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_31
+[2026.03.08-23.10.26:817][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.03.08-23.10.26:821][938]LogEditorActor: Deleted 0 Actors (0.012 secs)
+[2026.03.08-23.10.26:825][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.10.26:825][938]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low
+[2026.03.08-23.10.26:828][938]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_Arc_low.Tubo_P_Arc_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430DC602_2027992954
+[2026.03.08-23.10.41:141][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low
+[2026.03.08-23.10.41:141][461]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low
+[2026.03.08-23.10.41:142][461]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_32
+[2026.03.08-23.10.42:961][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.03.08-23.10.42:963][637]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2026.03.08-23.10.42:969][637]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low
+[2026.03.08-23.10.42:969][637]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low
+[2026.03.08-23.10.42:972][637]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Tubes/Tubo_P_L_low.Tubo_P_L_low as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430DC602_2044136956
+[2026.03.08-23.10.50:651][528]Cmd: DELETE
+[2026.03.08-23.10.50:651][528]Cmd: ACTOR DELETE
+[2026.03.08-23.10.50:652][528]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.03.08-23.10.50:661][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.03.08-23.10.50:664][528]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2026.03.08-23.11.12:539][737]Cmd: SELECT NONE
+[2026.03.08-23.11.32:061][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Machines/1/Maquina_1_2.Maquina_1_2
+[2026.03.08-23.11.32:061][960]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Machines/1/Maquina_1_2.Maquina_1_2
+[2026.03.08-23.11.32:061][960]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Machines/1/Maquina_1_2.Maquina_1_2 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_33
+[2026.03.08-23.11.35:953][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.03.08-23.11.35:956][401]LogEditorActor: Deleted 0 Actors (0.014 secs)
+[2026.03.08-23.11.35:962][401]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Machines/1/Maquina_1_2.Maquina_1_2
+[2026.03.08-23.11.35:962][401]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Own_Models/Machines/1/Maquina_1_2.Maquina_1_2
+[2026.03.08-23.11.35:965][401]LogActorFactory: Actor Factory spawned StaticMesh /Game/Own_Models/Machines/1/Maquina_1_2.Maquina_1_2 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563CF9A1430DC602_2097129957
+[2026.03.08-23.11.53:906][340]Cmd: SELECT NONE
+[2026.03.08-23.12.00:399][ 96]Cmd: ACTOR HIDE SELECTED
+[2026.03.08-23.12.15:716][674]Cmd: SELECT NONE
+[2026.03.08-23.12.19:051][ 67]Cmd: ACTOR UNHIDE ALL
+[2026.03.08-23.12.42:661][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.12.42:736][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.03.08-23.12.42:748][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.03.08-23.12.42:757][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.03.08-23.12.42:760][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/XK/RN33BVYZWAK22IIXIPQP6N
+[2026.03.08-23.12.42:760][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/RN33BVYZWAK22IIXIPQP6NFD7BEA404A4F51A554E3CA83CC8A6E16.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/XK/RN33BVYZWAK22IIXIPQP6N.uasset'
+[2026.03.08-23.12.42:761][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/K8/5ZB1BNAQMTRSE1ZBKQA26Y
+[2026.03.08-23.12.42:761][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/5ZB1BNAQMTRSE1ZBKQA26Y920725AB42631071EF9A09A5464BF6A9.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/K8/5ZB1BNAQMTRSE1ZBKQA26Y.uasset'
+[2026.03.08-23.12.42:764][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/MK/71XECN5ONQOXGDOPTYF8U6
+[2026.03.08-23.12.42:764][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/71XECN5ONQOXGDOPTYF8U6949BDA6045CED2086B9864832AC44210.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/MK/71XECN5ONQOXGDOPTYF8U6.uasset'
+[2026.03.08-23.12.42:766][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/WL/O5FTIPV5LDMSTEVEMV21Q9
+[2026.03.08-23.12.42:766][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/O5FTIPV5LDMSTEVEMV21Q9A4198F1A43DD3BCE66CBC4AF3DC42037.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/WL/O5FTIPV5LDMSTEVEMV21Q9.uasset'
+[2026.03.08-23.12.42:768][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/ZJ/1CWAXWQYFMMVNT7UXNL9JW
+[2026.03.08-23.12.42:768][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/1CWAXWQYFMMVNT7UXNL9JWD332ECB64D77F552F5439486D19BA7E0.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/ZJ/1CWAXWQYFMMVNT7UXNL9JW.uasset'
+[2026.03.08-23.12.42:771][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/HZ/0BEK77SJHNT4LLPY8C9HRQ
+[2026.03.08-23.12.42:772][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/0BEK77SJHNT4LLPY8C9HRQB85E90B643843AD60A7EB9BFCCED1547.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/HZ/0BEK77SJHNT4LLPY8C9HRQ.uasset'
+[2026.03.08-23.12.42:774][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/JD/GMA0UZTA2V3QJ6Z91UKTSE
+[2026.03.08-23.12.42:774][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/GMA0UZTA2V3QJ6Z91UKTSE9CED867B40AD06D9E9104585553004D5.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/JD/GMA0UZTA2V3QJ6Z91UKTSE.uasset'
+[2026.03.08-23.12.42:778][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1D/7O098C33XFREE5QLX8NDCS
+[2026.03.08-23.12.42:778][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/7O098C33XFREE5QLX8NDCS105B3A8A4414AF35BF1E72940634032A.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1D/7O098C33XFREE5QLX8NDCS.uasset'
+[2026.03.08-23.12.42:779][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/FO/57KSFD67GF7KNFGJBFHP1B
+[2026.03.08-23.12.42:779][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/57KSFD67GF7KNFGJBFHP1B3D69E0484EA90284257588B26E4F1351.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/FO/57KSFD67GF7KNFGJBFHP1B.uasset'
+[2026.03.08-23.12.42:782][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5J/IY791QC5EEPY2WG8RZ4EK1
+[2026.03.08-23.12.42:782][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/IY791QC5EEPY2WG8RZ4EK1C77FD6D04FEEFC163BF83D92BD33A3A8.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5J/IY791QC5EEPY2WG8RZ4EK1.uasset'
+[2026.03.08-23.12.42:784][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/VA/W8EM16AW2D6GZKZ6PX0H5D
+[2026.03.08-23.12.42:784][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/W8EM16AW2D6GZKZ6PX0H5DFA9020614D225C9CCF3D71AF6F88006F.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/VA/W8EM16AW2D6GZKZ6PX0H5D.uasset'
+[2026.03.08-23.12.42:786][899]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/FM/RG239MZ5QBATWCOY014R21
+[2026.03.08-23.12.42:786][899]LogSavePackage: Moving '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Saved/RG239MZ5QBATWCOY014R218441FE974BF81090588E4FBA472A4238.tmp' to '../../../../../../Users/PC RACING/Documents/GitHub/Enviro_AA1/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/FM/RG239MZ5QBATWCOY014R21.uasset'
+[2026.03.08-23.12.42:796][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.956 ms (total: 9.58 sec)
+[2026.03.08-23.12.42:849][899]LogContentValidation: Display: Starting to validate 12 assets
+[2026.03.08-23.12.42:849][899]LogContentValidation: Enabled validators:
+[2026.03.08-23.12.42:849][899]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.08-23.12.42:849][899]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.08-23.12.42:849][899]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.08-23.12.42:849][899]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.08-23.12.42:849][899]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.08-23.12.42:849][899]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.08-23.12.42:849][899]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validando recurso
+[2026.03.08-23.13.29:540][488]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44532.558594
+[2026.03.08-23.13.29:673][504]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.08-23.13.29:673][504]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44532.675781, Update Interval: 349.604797
+[2026.03.08-23.13.49:283][687]Cmd: TRANSACTION UNDO
+[2026.03.08-23.13.49:283][687]LogEditorTransaction: Undo Colocar objetos
+[2026.03.08-23.13.49:541][691]Cmd: TRANSACTION UNDO
+[2026.03.08-23.13.49:541][691]LogEditorTransaction: Undo Colocar objetos
+[2026.03.08-23.13.50:273][739]Cmd: TRANSACTION UNDO
+[2026.03.08-23.13.50:273][739]LogEditorTransaction: Undo Colocar objetos
+[2026.03.08-23.13.50:556][771]Cmd: TRANSACTION UNDO
+[2026.03.08-23.13.50:556][771]LogEditorTransaction: Undo Colocar objetos
+[2026.03.08-23.13.51:613][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.08-23.13.51:683][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2026.03.08-23.13.51:698][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.03.08-23.13.51:708][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.03.08-23.13.51:723][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.094 ms (total: 9.69 sec)
