@@ -5864,3 +5864,137 @@ Sampler Limit: 32
 [2026.03.12-12.28.12:531][427]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/GJOQOY3O4B65WYJG4SXA0K_Auto6E1DD53AC45D2EC407FCD49BEC13A7C57.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/AJ/GJOQOY3O4B65WYJG4SXA0K_Auto6.uasset'
 [2026.03.12-12.28.12:532][427]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.071
 [2026.03.12-12.28.12:532][427]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2026.03.12-12.32.59:822][290]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6591.651855
+[2026.03.12-12.33.00:822][293]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.12-12.33.00:822][293]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6592.317871, Update Interval: 303.231903
+[2026.03.12-12.34.30:078][  1]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.12-12.34.30:084][  1]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2026.03.12-12.34.30:084][  1]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2026.03.12-12.34.30:097][  1]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 12.920 ms (total: 316.383 ms)
+[2026.03.12-12.34.30:098][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.12-12.34.30:131][  1]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.12-12.34.30:148][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:153][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021510s)
+[2026.03.12-12.34.30:153][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.021571s)
+[2026.03.12-12.34.30:173][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.12-12.34.30:174][  1]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2026.03.12-12.34.30:176][  1]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.12-12.34.30:176][  1]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.12-12.34.30:176][  1]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.12-12.34.30:176][  1]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.12-12.34.30:183][  1]LogWorldPartition: Display: WorldPartition initialize took 6.992 ms (total: 401.033 ms)
+[2026.03.12-12.34.30:183][  1]LogPlayLevel: PIE: World Init took: (0.008623s)
+[2026.03.12-12.34.30:183][  1]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.03.12-12.34.30:183][  1]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.12-12.34.30:183][  1]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.12-12.34.30:183][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.12-12.34.30:183][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.12-12.34.30:184][  1]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.03.12-12.34.30:184][  1]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.12-12.34.30:184][  1]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.03.12-12.34.30:184][  1]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.12-12.34.30:184][  1]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.12-12.34.30:184][  1]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.12-12.34.30:184][  1]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.12-12.34.30:185][  1]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.12-12.34.30:208][  1]LogAudioMixer: Display: Using Audio Hardware Device PL2745Q (NVIDIA High Definition Audio)
+[2026.03.12-12.34.30:208][  1]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.12-12.34.30:208][  1]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.12-12.34.30:208][  1]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.12-12.34.30:209][  1]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.03.12-12.34.30:209][  1]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.03.12-12.34.30:210][  1]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.03.12-12.34.30:210][  1]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.03.12-12.34.30:210][  1]LogInit: FAudioDevice initialized with ID 23.
+[2026.03.12-12.34.30:210][  1]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstPersonMap'.
+[2026.03.12-12.34.30:210][  1]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.03.12-12.34.30:215][  1]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.03.12-12.34.30:217][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:217][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:217][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:223][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:223][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:223][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:223][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:223][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.34.30:227][  1]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2026.03.12-13.34.30
+[2026.03.12-12.34.30:227][  1]LogWorld: Bringing up level for play took: 0.012886
+[2026.03.12-12.34.30:230][  1]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2026.03.12-12.34.30:234][  1]PIE: Server logged in
+[2026.03.12-12.34.30:235][  1]PIE: Play in editor total start time 0.15 seconds.
+[2026.03.12-12.34.30:241][  1]LogStaticMesh: Warning: Invalid material [M_Tank_Light] used on Nanite static mesh [tanqueCristal_low]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2026.03.12-12.35.21:849][713]Cmd: LevelEditor.ToggleImmersive
+[2026.03.12-12.35.25:139][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.12-12.35.25:139][ 16]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2026.03.12-12.35.25:140][ 16]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.12-12.35.25:144][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.12-12.35.25:144][ 16]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2026.03.12-12.35.25:151][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.12-12.35.25:154][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.12-12.35.25:176][ 16]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.12-12.35.25:176][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.03.12-12.35.25:176][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.03.12-12.35.25:178][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.03.12-12.35.25:181][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.12-12.35.25:187][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.03.12-12.35.25:225][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.03.12-12.35.26:258][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.03.12-12.35.27:809][117]LogSlate: Window 'Save Content' being destroyed
+[2026.03.12-12.35.27:834][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.12-12.35.27:911][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.03.12-12.35.27:928][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.03.12-12.35.27:946][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.03.12-12.35.27:948][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/LR/QYP1P2DMH9KLEKJ3H0BWQS
+[2026.03.12-12.35.27:948][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/QYP1P2DMH9KLEKJ3H0BWQS8F8B8CBD4D3932986A04AD8B6834A087.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/LR/QYP1P2DMH9KLEKJ3H0BWQS.uasset'
+[2026.03.12-12.35.27:950][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FF/PBOASAKFRRAEVZS3Z4ZCB2
+[2026.03.12-12.35.27:950][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/PBOASAKFRRAEVZS3Z4ZCB2141F4AA14BE508406F91B2B5B5273119.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/FF/PBOASAKFRRAEVZS3Z4ZCB2.uasset'
+[2026.03.12-12.35.27:953][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/J2/4H03SRON08WUI993GKSKHI
+[2026.03.12-12.35.27:953][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/4H03SRON08WUI993GKSKHIC36C430F41EC25AE19A0AC9926148BC3.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/J2/4H03SRON08WUI993GKSKHI.uasset'
+[2026.03.12-12.35.27:955][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/SQ/O0UUBJ4MMVVLFUZ5HOQ5ZJ
+[2026.03.12-12.35.27:955][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/O0UUBJ4MMVVLFUZ5HOQ5ZJ6E1C24D34AD4BE51EB457A80D416E57D.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/SQ/O0UUBJ4MMVVLFUZ5HOQ5ZJ.uasset'
+[2026.03.12-12.35.27:958][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8W/1YTCIZ8CJWNXJ1F9RSHI48
+[2026.03.12-12.35.27:958][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/1YTCIZ8CJWNXJ1F9RSHI48533C1F50462F360BBC1465A6CE129781.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8W/1YTCIZ8CJWNXJ1F9RSHI48.uasset'
+[2026.03.12-12.35.27:960][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/UB/E3LE75UVNABND42OXCZQQD
+[2026.03.12-12.35.27:960][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/E3LE75UVNABND42OXCZQQD1D10F9D44CDBBA8677CDE18061F8E9B7.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/UB/E3LE75UVNABND42OXCZQQD.uasset'
+[2026.03.12-12.35.27:962][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/SP/46WUCYKSRDZSBYDSBWTVGM
+[2026.03.12-12.35.27:962][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/46WUCYKSRDZSBYDSBWTVGM77D41259404D7D2573774B85A65F201F.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/SP/46WUCYKSRDZSBYDSBWTVGM.uasset'
+[2026.03.12-12.35.27:964][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/IM/WUK56CSWKWPV9D5ZENLE1I
+[2026.03.12-12.35.27:964][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/WUK56CSWKWPV9D5ZENLE1I8DA076FF4A3AD75391051B8E7543F09F.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/IM/WUK56CSWKWPV9D5ZENLE1I.uasset'
+[2026.03.12-12.35.27:966][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/YR/CRBG5UYFXBRDTLAHBBSGHN
+[2026.03.12-12.35.27:966][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/CRBG5UYFXBRDTLAHBBSGHNB44FC1754A14CAF8ACC0CB8EAC5578F8.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/YR/CRBG5UYFXBRDTLAHBBSGHN.uasset'
+[2026.03.12-12.35.27:969][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/WZ/7LT97ABTTPU4CP030ERQM9
+[2026.03.12-12.35.27:969][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/7LT97ABTTPU4CP030ERQM9F0A050464A2E01B7506582AED980DB75.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/WZ/7LT97ABTTPU4CP030ERQM9.uasset'
+[2026.03.12-12.35.27:971][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/Z4/LYNADA5FLCRBQUEDB4O6Q7
+[2026.03.12-12.35.27:971][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/LYNADA5FLCRBQUEDB4O6Q7E8892E45470D44A608EABCB04BAF96BC.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/Z4/LYNADA5FLCRBQUEDB4O6Q7.uasset'
+[2026.03.12-12.35.27:974][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/AJ/GJOQOY3O4B65WYJG4SXA0K
+[2026.03.12-12.35.27:974][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/GJOQOY3O4B65WYJG4SXA0K96BAD79F40C052251B8EA9B78AE349D1.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/AJ/GJOQOY3O4B65WYJG4SXA0K.uasset'
+[2026.03.12-12.35.27:976][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/8T/VPULC8KVA3HKM23N8A15MH
+[2026.03.12-12.35.27:976][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/VPULC8KVA3HKM23N8A15MH7FD7F42140C70CE8C399DEBBF5C36C46.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/8T/VPULC8KVA3HKM23N8A15MH.uasset'
+[2026.03.12-12.35.27:978][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/7P/JATZHIT2JS8JQPBUJXOVDF
+[2026.03.12-12.35.27:978][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/JATZHIT2JS8JQPBUJXOVDF7453B79A418693C05A6492A3280CC3A3.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/7P/JATZHIT2JS8JQPBUJXOVDF.uasset'
+[2026.03.12-12.35.27:980][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/86/S5ANMPG0XUZYUCD4P2NSQ7
+[2026.03.12-12.35.27:980][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/S5ANMPG0XUZYUCD4P2NSQ7D1D523C3421F71D8A27A20B53B03DF3B.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/86/S5ANMPG0XUZYUCD4P2NSQ7.uasset'
+[2026.03.12-12.35.27:983][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/0H/S93RF2CR7S1F25QS8EGYXA
+[2026.03.12-12.35.27:983][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/S93RF2CR7S1F25QS8EGYXA4523E65845E5A7726AC5F5B8C8E8690E.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/0H/S93RF2CR7S1F25QS8EGYXA.uasset'
+[2026.03.12-12.35.27:985][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/7U/AC1ELUSXE2475GJLBJNVJV
+[2026.03.12-12.35.27:985][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/AC1ELUSXE2475GJLBJNVJVD81531B34FE6B4582582E8BB3C2801D6.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/7U/AC1ELUSXE2475GJLBJNVJV.uasset'
+[2026.03.12-12.35.27:988][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/H6/ADXH741VJ0IPXOP6W04E6V
+[2026.03.12-12.35.27:988][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/ADXH741VJ0IPXOP6W04E6V44009EE74F6A747AB296EB9E19F92F31.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/H6/ADXH741VJ0IPXOP6W04E6V.uasset'
+[2026.03.12-12.35.27:990][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/AX/IAXO76XW8WEYNXOCS867Q3
+[2026.03.12-12.35.27:990][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/IAXO76XW8WEYNXOCS867Q351DCB6664F898DCEF7D18BB96CBA2E3A.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/AX/IAXO76XW8WEYNXOCS867Q3.uasset'
+[2026.03.12-12.35.27:993][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/9F/0SD1QEJXKNRQ7ZRGJMTM88
+[2026.03.12-12.35.27:993][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/0SD1QEJXKNRQ7ZRGJMTM88697EA21F4ABBBC71AEF700A96779A4D0.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/9F/0SD1QEJXKNRQ7ZRGJMTM88.uasset'
+[2026.03.12-12.35.27:995][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/4C/41HRSJ0JUR128P9WMBB7ZD
+[2026.03.12-12.35.27:995][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/41HRSJ0JUR128P9WMBB7ZD8790CE334546D97BC8DDCFA0345E68CE.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/4C/41HRSJ0JUR128P9WMBB7ZD.uasset'
+[2026.03.12-12.35.27:998][117]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/C8/X6QXCPMU0Y8WKSUR26FOJA
+[2026.03.12-12.35.27:998][117]LogSavePackage: Moving '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Saved/X6QXCPMU0Y8WKSUR26FOJADB05B197463B608B59189C8EE6A0E296.tmp' to '../../../../../Users/JuanDavidAstiasuainz/Documents/Git/Enviro_AA1/AA1_Arte_Entornos/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/C8/X6QXCPMU0Y8WKSUR26FOJA.uasset'
+[2026.03.12-12.35.28:008][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.698 ms (total: 5.72 sec)
+[2026.03.12-12.35.28:045][117]LogContentValidation: Display: Starting to validate 22 assets
+[2026.03.12-12.35.28:045][117]LogContentValidation: Enabled validators:
+[2026.03.12-12.35.28:045][117]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.12-12.35.28:045][117]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.12-12.35.28:045][117]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.12-12.35.28:045][117]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.12-12.35.28:045][117]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.12-12.35.28:045][117]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.12-12.35.28:046][117]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
